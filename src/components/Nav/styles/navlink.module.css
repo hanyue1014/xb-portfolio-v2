@@ -1,0 +1,10 @@
+.navLink {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px calc((100% - 80% - 10px) / 2); /* 10px for left and right margin */
+}
+
+.navIcon {
+  font-size: 3em;
+}

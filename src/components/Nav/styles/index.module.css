@@ -1,0 +1,9 @@
+.nav {
+  background-color: var(--container-bg);
+  padding: 15px 10px;
+  width: 25%;
+  max-width: 350px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
