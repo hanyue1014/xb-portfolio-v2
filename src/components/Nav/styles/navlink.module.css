@@ -1,10 +1,26 @@
 .navLink {
   display: flex;
+  gap: 10px;
+  align-items: center;
   width: 80%;
-  margin: 0 auto;
-  padding: 10px calc((100% - 80% - 10px) / 2); /* 10px for left and right margin */
+  margin: 10px auto;
+  padding: 10px calc((100% - 80% - 20px) / 2); /* 10px for left and right margin */
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  background-color: var(--accent-interact);
+}
+
+.navLink:hover * {
+  color: var(--highlighted);
 }
 
 .navIcon {
   font-size: 3em;
+}
+
+.navLink p {
+  font-size: 2em;
 }
