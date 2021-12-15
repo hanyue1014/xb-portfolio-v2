@@ -1,0 +1,20 @@
+/* 
+all sections will be full width and full height on pc 
+with a smaller div inside (maybe positioned absolute)
+*/
+.sections {
+  height: 100vh;
+  position: relative;
+}
+
+.sectionContents {
+  position: absolute;
+  /* the nested divs inside should default to 55% width */
+  width: 55%;
+  background-color: var(--container-bg);
+  padding: 35px 30px;
+  border-radius: 10px;
+  top: 50%;
+  margin-left: 450px;
+  transform: translateY(-50%);
+}

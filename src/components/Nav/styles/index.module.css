@@ -5,6 +5,7 @@
   max-width: 350px;
   position: fixed;
   top: 50%;
+  z-index: 9999;
   transform: translateY(-50%);
   border-radius: 15px;
 }

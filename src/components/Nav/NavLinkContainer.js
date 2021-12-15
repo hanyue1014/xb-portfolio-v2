@@ -22,14 +22,6 @@ const ICONS = [
 ]
 
 function NavLinkContainer() {
-  const [active, setActive] = useState('none')
-
-  const updateLink = (link) => {
-    window.console.log(link)
-    setActive(link)
-    window.location.href = `#${link}`
-  }
-
   return (
     <div>
       {
@@ -38,8 +30,7 @@ function NavLinkContainer() {
             key={index} 
             iconName={icon.fontClassName} 
             linksTo={icon.linksTo} 
-            active={active === icon.linksTo} 
-            onClick={updateLink}/>
+          />
         ))
       }
     </div>
