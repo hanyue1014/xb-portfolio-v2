@@ -7,14 +7,24 @@
   padding: 10px calc((100% - 80% - 20px) / 2); /* 10px for left and right margin */
   border-radius: 15px;
   cursor: pointer;
+  transition: .3s ease;
 }
 
 .navLink:hover {
   background-color: var(--accent-interact);
 }
 
-.navLink:hover * {
+.navLink:hover *,
+.active {
   color: var(--highlighted);
+}
+
+.active {
+  background-color: var(--accent);
+}
+
+.navIcon, .navLink p {
+  color: inherit;
 }
 
 .navIcon {
