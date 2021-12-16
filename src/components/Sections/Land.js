@@ -1,7 +1,7 @@
 import React from 'react'
 
-import classes from '../styles/sections.module.css'
-import landClasses from '../styles/land.module.css'
+import classes from './styles/sections.module.css'
+import landClasses from './styles/land.module.css'
 
 function Land() {
   return (
